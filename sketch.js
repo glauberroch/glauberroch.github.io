@@ -1,6 +1,6 @@
 //este template inclui já exemplos de como capturar o som do vosso microfone e a vossa câmara
-//é só tirar o que está comentado para o que quiseres utilizar
-//Marcelo Reis, 2021
+//Instituto das Artes e da Imagem, 12ºI, Oficina de Produtos Multimédia
+//Prof. Marcelo Reis, 2021
 
 
 
