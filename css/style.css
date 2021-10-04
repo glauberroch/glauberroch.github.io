@@ -1,7 +1,78 @@
-body {
-    margin: 0%;
+*{
+    margin:0%;
+    padding: 0%;
 }
 
-.p5js {
-    position: fixed;
+body{
+    background-color: rgb(255, 242, 215);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+    
 }
+
+a{
+    text-decoration: none;
+    color: black;    
+}
+
+a:hover{
+    color: grey;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 5em;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+}
+
+.navega{
+    width:30%;
+    padding: 8px;
+    position: fixed;
+    top:3%;
+    font-family: Helvetica, sans-serif;
+}
+
+.navega ul{
+    list-style-type: none;
+}
+
+.navega li{
+    margin-top: 3%;
+}
+
+.box{
+    width: 70%;
+    float:left;
+    margin: 3%;
+    position: relative;
+    left:20%
+}
+
+.box h3{
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inicio_box{
+    width: 70%;
+    float:left;
+    margin: 3%;
+    position: relative;
+    left:20%
+}
+
+img{
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
