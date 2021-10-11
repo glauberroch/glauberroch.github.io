@@ -4,24 +4,23 @@
 }
 
 body{
-    background-color: rgb(255, 242, 215);
+    background-color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
-    
+    color: white;
 }
 
 a{
     text-decoration: none;
-    color: black;    
+    color:white;  
+    font-weight: lighter;  
 }
 
 a:hover{
-    color: grey;
+    color: black;
 }
 
-h1{
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 5em;
+.crl{
+    clear: both;
 }
 
 .container{
@@ -29,50 +28,112 @@ h1{
     margin: auto;
 }
 
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 1%;
+}
+
 .navega{
-    width:30%;
-    padding: 8px;
-    position: fixed;
-    top:3%;
+    display:flex;
+    background-color: black;
     font-family: Helvetica, sans-serif;
+    align-items: center;
+    margin-bottom: 1%;}
+
+
+.nav_flex{
+    flex: 1;
+    width: 100%;
+    
 }
 
-.navega ul{
-    list-style-type: none;
+.nav_txt{
+text-align: center;
+padding: 10px;
+    
 }
 
-.navega li{
-    margin-top: 3%;
+.nav_txt:hover{background-image: url(../img/pattern.gif);}
+
+.container1 {
+    display: flex;
+    margin-bottom: 1%;
 }
 
-.box{
-    width: 70%;
-    float:left;
-    margin: 3%;
-    position: relative;
-    left:20%;
+.container1 div{
+   
+    padding: 10px;
 }
 
-.box h3{
-    margin-bottom: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+.box1{
+flex: 1;
 }
 
-.inicio_box{
-    width: 70%;
-    float:left;
-    margin: 3%;
-    position: relative;
-    left:20%;
+.box2{
+    flex: 1;
+    background-image: url(../img/pattern3.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
 
-.inicio_box:hover{
+.box6 h1{
     color: red;
 }
 
-img{
-    margin-top: 3%;
+.box3{
+flex:1;
 }
+
+.box4{
+    flex: 2;
+    background-image: url(../img/pattern2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+}
+
+.box5{
+    flex: 2;
+}
+
+.box6{
+    flex: 1;
+    background-image: url(../img/pattern4.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_txt{        
+        width: 50%; 
+        float: left;          
+    }
+
+    .inicio_box{
+        position: relative;
+        top:50px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .navega, .container1{
+       flex-direction: column;
+    }
+
+    .nav_txt{
+        width: 100%;
+    }   
+    
+}
+
 
 
 
